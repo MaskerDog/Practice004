@@ -7,18 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4B8334E2A3FDB7500A803A4 /* SampleBurger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B8334D2A3FDB7500A803A4 /* SampleBurger.swift */; };
+		E4B833502A3FDBB100A803A4 /* AvocadoBurger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B8334F2A3FDBB100A803A4 /* AvocadoBurger.swift */; };
 		E4EF33F42A3B0D9500A4E0B9 /* Practice004App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EF33F32A3B0D9500A4E0B9 /* Practice004App.swift */; };
 		E4EF33F62A3B0D9500A4E0B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EF33F52A3B0D9500A4E0B9 /* ContentView.swift */; };
 		E4EF33F82A3B0D9600A4E0B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4EF33F72A3B0D9600A4E0B9 /* Assets.xcassets */; };
 		E4EF33FB2A3B0D9600A4E0B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4EF33FA2A3B0D9600A4E0B9 /* Preview Assets.xcassets */; };
+		E4EF34032A3B105C00A4E0B9 /* Mplus2-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E4EF34012A3B105C00A4E0B9 /* Mplus2-Regular.otf */; };
+		E4EF34042A3B105C00A4E0B9 /* Mplus2-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = E4EF34022A3B105C00A4E0B9 /* Mplus2-Black.otf */; };
+		E4EF34082A3B110300A4E0B9 /* Mplus2-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E4EF34072A3B110300A4E0B9 /* Mplus2-Bold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E4B8334D2A3FDB7500A803A4 /* SampleBurger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleBurger.swift; sourceTree = "<group>"; };
+		E4B8334F2A3FDBB100A803A4 /* AvocadoBurger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadoBurger.swift; sourceTree = "<group>"; };
 		E4EF33F02A3B0D9500A4E0B9 /* Practice004.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice004.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4EF33F32A3B0D9500A4E0B9 /* Practice004App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice004App.swift; sourceTree = "<group>"; };
 		E4EF33F52A3B0D9500A4E0B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E4EF33F72A3B0D9600A4E0B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4EF33FA2A3B0D9600A4E0B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4EF34012A3B105C00A4E0B9 /* Mplus2-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mplus2-Regular.otf"; sourceTree = "<group>"; };
+		E4EF34022A3B105C00A4E0B9 /* Mplus2-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mplus2-Black.otf"; sourceTree = "<group>"; };
+		E4EF34062A3B10B200A4E0B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E4EF34072A3B110300A4E0B9 /* Mplus2-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mplus2-Bold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +62,13 @@
 		E4EF33F22A3B0D9500A4E0B9 /* Practice004 */ = {
 			isa = PBXGroup;
 			children = (
+				E4EF34062A3B10B200A4E0B9 /* Info.plist */,
 				E4EF33F32A3B0D9500A4E0B9 /* Practice004App.swift */,
 				E4EF33F52A3B0D9500A4E0B9 /* ContentView.swift */,
+				E4B8334F2A3FDBB100A803A4 /* AvocadoBurger.swift */,
+				E4B8334D2A3FDB7500A803A4 /* SampleBurger.swift */,
 				E4EF33F72A3B0D9600A4E0B9 /* Assets.xcassets */,
+				E4EF34052A3B107500A4E0B9 /* Font */,
 				E4EF33F92A3B0D9600A4E0B9 /* Preview Content */,
 			);
 			path = Practice004;
@@ -65,6 +80,16 @@
 				E4EF33FA2A3B0D9600A4E0B9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E4EF34052A3B107500A4E0B9 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				E4EF34022A3B105C00A4E0B9 /* Mplus2-Black.otf */,
+				E4EF34012A3B105C00A4E0B9 /* Mplus2-Regular.otf */,
+				E4EF34072A3B110300A4E0B9 /* Mplus2-Bold.otf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +150,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4EF34082A3B110300A4E0B9 /* Mplus2-Bold.otf in Resources */,
+				E4EF34042A3B105C00A4E0B9 /* Mplus2-Black.otf in Resources */,
 				E4EF33FB2A3B0D9600A4E0B9 /* Preview Assets.xcassets in Resources */,
 				E4EF33F82A3B0D9600A4E0B9 /* Assets.xcassets in Resources */,
+				E4EF34032A3B105C00A4E0B9 /* Mplus2-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +166,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4EF33F62A3B0D9500A4E0B9 /* ContentView.swift in Sources */,
+				E4B8334E2A3FDB7500A803A4 /* SampleBurger.swift in Sources */,
+				E4B833502A3FDBB100A803A4 /* AvocadoBurger.swift in Sources */,
 				E4EF33F42A3B0D9500A4E0B9 /* Practice004App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +300,7 @@
 				DEVELOPMENT_TEAM = 6H8RBA4DXP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Practice004/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +330,7 @@
 				DEVELOPMENT_TEAM = 6H8RBA4DXP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Practice004/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
