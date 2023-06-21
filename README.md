@@ -223,8 +223,10 @@ Text("(税込1749円)")
 <kbd><img height="500" alt="image" src="https://github.com/MaskerDog/Practice004/assets/37284851/503c36cf-d631-4792-afd5-15e8386f2836"></kbd>
 
 <hr>
+
 このアプリケーションには、SIL OPEN FONT LICENSE Version 1.1で定められた条件に基づいて配布されているフォントが含まれています。  
 フォントの詳細およびライセンステキストについては、以下のリンク先を参照してください:  
-「M+ FONTS」([http://jikasei.me/font/mgenplus/](https://mplusfonts.github.io/)). 
-Licensed under SIL Open Font License 1.1 (http://scripts.sil.org/OFL)
+[M+ FONTS ダウンロード](https://mplusfonts.github.io/)
+[M+ FONTS 自家製](http://jikasei.me/font/mgenplus/) 
+Licensed under [SIL Open Font License 1.1](http://scripts.sil.org/OFL)
            
